@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 app.get('/',(req,res)=>{
     res.render()});
 
-app.all('https://test-server-of-fetching-prompt.onrender.com/',(req,res)=>{
+app.all('https://test-server-of-fetching-prompt.onrender.com/index',(req,res)=>{
     console.log(req.body.name);
     console.log(req.ip);
     console.log(req.ips);
